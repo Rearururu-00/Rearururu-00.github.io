@@ -6,7 +6,7 @@ function getName(){
   //create LS key with value of a
   localStorage.setItem("uName",a);
   //take user to two.html
-  location.href - "two.html"
+  location.href = "two.html"
 }
 
 function getUser(){
