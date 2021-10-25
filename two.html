@@ -8,9 +8,11 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <p id="placeholder"></p>
     <script>
-    getUser();
+    window.onload=function{
+      var name = localStorage.getItem('userName');
+      window.alert('Hello'+name);
+    }
     </script>
   </body>
 </html>
